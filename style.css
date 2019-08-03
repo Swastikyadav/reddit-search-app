@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+
+/* Styling input field */
+#userInput {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#search {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    outline: none;
+}
+
+select {
+    padding: 8px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+button {
+    padding: 8px;
+    background: #F34423;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Styling posts */
+.posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    background: rgba(128, 128, 128, 0.219);
+}
+.card {
+    background: lightblue;
+}
+
+.hero {
+    text-align: center;
+    color: #7FBCE9;
+}
+
+@media all and (max-width: 600px) {
+    .posts {
+        grid-template-columns: 1fr;
+    }
+}
